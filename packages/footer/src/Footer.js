@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "lit";
 import * as moment from "moment";
 
-export class MyHeader extends LitElement {
+export class MyFooter extends LitElement {
   static properties = {};
   constructor() {
     super();
@@ -11,7 +11,7 @@ export class MyHeader extends LitElement {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #E1E1E1;
   }
   
   li {
@@ -20,7 +20,7 @@ export class MyHeader extends LitElement {
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -38,4 +38,4 @@ export class MyHeader extends LitElement {
   }
 }
 
-customElements.define("my-header", MyHeader);
+customElements.define("my-footer", MyFooter);
